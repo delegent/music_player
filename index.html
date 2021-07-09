@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Music player</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&family=Tourney:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/a67dabf8f7.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+	
+	
+    
+
+	<nav>
+		<img  src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" alt="">
+
+		<h1>Statify</h1>
+	</nav>
+
+
+	
+	<div class="container gradient-border cont ">
+		<div class="top-bar">
+			<i class="far fa-heart" id = "heart"></i>
+			<span>Now Playing</span>
+			<i class="fas fa-plus" id = "plus"></i>
+		</div>
+		<div class="img-area">
+			<img src="images/music1.jpg" class = "" alt="">
+		</div>
+
+		<div class="song-details">
+			<!-- <img id = "beat" src="https://media.giphy.com/media/jSfIrLP6dvzMQiaaw7/giphy.gif" alt=""> -->
+			<p class="name">Fallin For You</p>
+			<p class="artist">Shrey Singhal</p>
+			
+		</div>
+
+		<div class="progress-area">
+			<div class="progress-bar">
+				<audio src="" id="main-audio"></audio>
+			</div>
+			<div class="song-timer">
+				<span class="current-time">0:00</span>				
+				<span class="max-duration">0:00</span>
+			</div>
+
+		</div>
+
+		<div class="controls">
+			<i class="fas fa-headphones-alt" id = "repeat-plist"></i>
+			<i class="fas fa-backward prev"></i>
+			<div class="play-pause">
+				<i class="fas fa-play play"></i>
+			</div>
+			<i class="fas fa-forward next" id = "next" ></i>
+			<i id = "more-music" class="fas fa-sliders-h"></i> 
+		</div>
+
+		<div class="music-list">
+			<div class="header">
+				<div class="row">
+					<i class="fas fa-bars"></i> 
+					<span style = "margin-left: 5px;"> Music List</span>
+				</div>
+				<i class="fas fa-times" id = "close"></i>
+			</div>
+			<ul>
+				
+			</ul>
+		</div>
+
+
+	</div>
+ 
+	
+	
+
+
+
+	<div class='light x1'></div>
+  <div class='light x2'></div>
+  <div class='light x3'></div>
+  <div class='light x4'></div>
+  <div class='light x5'></div>
+  <div class='light x6'></div>
+  <div class='light x7'></div>
+  <div class='light x8'></div>
+  <div class='light x9'></div>
+  <div class='light x10'></div>
+  <div class='light x11'></div>
+  <div class='light x12'></div>
+  
+	
+	<script src="js/music_list.js"></script>
+	<script src = "js/script.js"></script>
+</body>
+</html>
